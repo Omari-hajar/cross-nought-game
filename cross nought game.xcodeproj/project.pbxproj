@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC447335275753A1002A3F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447334275753A1002A3F6E /* AppDelegate.swift */; };
+		CC447337275753A1002A3F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447336275753A1002A3F6E /* SceneDelegate.swift */; };
+		CC447339275753A1002A3F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447338275753A1002A3F6E /* ViewController.swift */; };
+		CC44733C275753A1002A3F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC44733A275753A1002A3F6E /* Main.storyboard */; };
+		CC44733E275753A3002A3F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC44733D275753A3002A3F6E /* Assets.xcassets */; };
+		CC447341275753A3002A3F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC44733F275753A3002A3F6E /* LaunchScreen.storyboard */; };
+		CC44734C275753A3002A3F6E /* cross_nought_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44734B275753A3002A3F6E /* cross_nought_gameTests.swift */; };
+		CC447356275753A3002A3F6E /* cross_nought_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447355275753A3002A3F6E /* cross_nought_gameUITests.swift */; };
+		CC447358275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447357275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC447348275753A3002A3F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC447329275753A1002A3F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC447330275753A1002A3F6E;
+			remoteInfo = "cross nought game";
+		};
+		CC447352275753A3002A3F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC447329275753A1002A3F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC447330275753A1002A3F6E;
+			remoteInfo = "cross nought game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC447331275753A1002A3F6E /* cross nought game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cross nought game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC447334275753A1002A3F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC447336275753A1002A3F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC447338275753A1002A3F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC44733B275753A1002A3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC44733D275753A3002A3F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC447340275753A3002A3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC447342275753A3002A3F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC447347275753A3002A3F6E /* cross nought gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cross nought gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC44734B275753A3002A3F6E /* cross_nought_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cross_nought_gameTests.swift; sourceTree = "<group>"; };
+		CC447351275753A3002A3F6E /* cross nought gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cross nought gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC447355275753A3002A3F6E /* cross_nought_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cross_nought_gameUITests.swift; sourceTree = "<group>"; };
+		CC447357275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cross_nought_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC44732E275753A1002A3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC447344275753A3002A3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC44734E275753A3002A3F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC447328275753A1002A3F6E = {
+			isa = PBXGroup;
+			children = (
+				CC447333275753A1002A3F6E /* cross nought game */,
+				CC44734A275753A3002A3F6E /* cross nought gameTests */,
+				CC447354275753A3002A3F6E /* cross nought gameUITests */,
+				CC447332275753A1002A3F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC447332275753A1002A3F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC447331275753A1002A3F6E /* cross nought game.app */,
+				CC447347275753A3002A3F6E /* cross nought gameTests.xctest */,
+				CC447351275753A3002A3F6E /* cross nought gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC447333275753A1002A3F6E /* cross nought game */ = {
+			isa = PBXGroup;
+			children = (
+				CC447334275753A1002A3F6E /* AppDelegate.swift */,
+				CC447336275753A1002A3F6E /* SceneDelegate.swift */,
+				CC447338275753A1002A3F6E /* ViewController.swift */,
+				CC44733A275753A1002A3F6E /* Main.storyboard */,
+				CC44733D275753A3002A3F6E /* Assets.xcassets */,
+				CC44733F275753A3002A3F6E /* LaunchScreen.storyboard */,
+				CC447342275753A3002A3F6E /* Info.plist */,
+			);
+			path = "cross nought game";
+			sourceTree = "<group>";
+		};
+		CC44734A275753A3002A3F6E /* cross nought gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC44734B275753A3002A3F6E /* cross_nought_gameTests.swift */,
+			);
+			path = "cross nought gameTests";
+			sourceTree = "<group>";
+		};
+		CC447354275753A3002A3F6E /* cross nought gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC447355275753A3002A3F6E /* cross_nought_gameUITests.swift */,
+				CC447357275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift */,
+			);
+			path = "cross nought gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC447330275753A1002A3F6E /* cross nought game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC44735B275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought game" */;
+			buildPhases = (
+				CC44732D275753A1002A3F6E /* Sources */,
+				CC44732E275753A1002A3F6E /* Frameworks */,
+				CC44732F275753A1002A3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cross nought game";
+			productName = "cross nought game";
+			productReference = CC447331275753A1002A3F6E /* cross nought game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC447346275753A3002A3F6E /* cross nought gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC44735E275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought gameTests" */;
+			buildPhases = (
+				CC447343275753A3002A3F6E /* Sources */,
+				CC447344275753A3002A3F6E /* Frameworks */,
+				CC447345275753A3002A3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC447349275753A3002A3F6E /* PBXTargetDependency */,
+			);
+			name = "cross nought gameTests";
+			productName = "cross nought gameTests";
+			productReference = CC447347275753A3002A3F6E /* cross nought gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC447350275753A3002A3F6E /* cross nought gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC447361275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought gameUITests" */;
+			buildPhases = (
+				CC44734D275753A3002A3F6E /* Sources */,
+				CC44734E275753A3002A3F6E /* Frameworks */,
+				CC44734F275753A3002A3F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC447353275753A3002A3F6E /* PBXTargetDependency */,
+			);
+			name = "cross nought gameUITests";
+			productName = "cross nought gameUITests";
+			productReference = CC447351275753A3002A3F6E /* cross nought gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC447329275753A1002A3F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CC447330275753A1002A3F6E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CC447346275753A3002A3F6E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CC447330275753A1002A3F6E;
+					};
+					CC447350275753A3002A3F6E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CC447330275753A1002A3F6E;
+					};
+				};
+			};
+			buildConfigurationList = CC44732C275753A1002A3F6E /* Build configuration list for PBXProject "cross nought game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC447328275753A1002A3F6E;
+			productRefGroup = CC447332275753A1002A3F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC447330275753A1002A3F6E /* cross nought game */,
+				CC447346275753A3002A3F6E /* cross nought gameTests */,
+				CC447350275753A3002A3F6E /* cross nought gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC44732F275753A1002A3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC447341275753A3002A3F6E /* LaunchScreen.storyboard in Resources */,
+				CC44733E275753A3002A3F6E /* Assets.xcassets in Resources */,
+				CC44733C275753A1002A3F6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC447345275753A3002A3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC44734F275753A3002A3F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC44732D275753A1002A3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC447339275753A1002A3F6E /* ViewController.swift in Sources */,
+				CC447335275753A1002A3F6E /* AppDelegate.swift in Sources */,
+				CC447337275753A1002A3F6E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC447343275753A3002A3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC44734C275753A3002A3F6E /* cross_nought_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC44734D275753A3002A3F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC447358275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift in Sources */,
+				CC447356275753A3002A3F6E /* cross_nought_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC447349275753A3002A3F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC447330275753A1002A3F6E /* cross nought game */;
+			targetProxy = CC447348275753A3002A3F6E /* PBXContainerItemProxy */;
+		};
+		CC447353275753A3002A3F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC447330275753A1002A3F6E /* cross nought game */;
+			targetProxy = CC447352275753A3002A3F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC44733A275753A1002A3F6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC44733B275753A1002A3F6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC44733F275753A3002A3F6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC447340275753A3002A3F6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC447359275753A3002A3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC44735A275753A3002A3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC44735C275753A3002A3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cross nought game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC44735D275753A3002A3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cross nought game/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC44735F275753A3002A3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cross nought game.app/cross nought game";
+			};
+			name = Debug;
+		};
+		CC447360275753A3002A3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cross nought game.app/cross nought game";
+			};
+			name = Release;
+		};
+		CC447362275753A3002A3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cross nought game";
+			};
+			name = Debug;
+		};
+		CC447363275753A3002A3F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSX47LJT9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wishStar.cross-nought-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cross nought game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC44732C275753A1002A3F6E /* Build configuration list for PBXProject "cross nought game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC447359275753A3002A3F6E /* Debug */,
+				CC44735A275753A3002A3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC44735B275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC44735C275753A3002A3F6E /* Debug */,
+				CC44735D275753A3002A3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC44735E275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC44735F275753A3002A3F6E /* Debug */,
+				CC447360275753A3002A3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC447361275753A3002A3F6E /* Build configuration list for PBXNativeTarget "cross nought gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC447362275753A3002A3F6E /* Debug */,
+				CC447363275753A3002A3F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC447329275753A1002A3F6E /* Project object */;
+}
