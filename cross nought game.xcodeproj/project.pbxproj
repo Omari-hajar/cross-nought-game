@@ -11,11 +11,13 @@
 		CC447337275753A1002A3F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447336275753A1002A3F6E /* SceneDelegate.swift */; };
 		CC447339275753A1002A3F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447338275753A1002A3F6E /* ViewController.swift */; };
 		CC44733C275753A1002A3F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC44733A275753A1002A3F6E /* Main.storyboard */; };
-		CC44733E275753A3002A3F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC44733D275753A3002A3F6E /* Assets.xcassets */; };
 		CC447341275753A3002A3F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC44733F275753A3002A3F6E /* LaunchScreen.storyboard */; };
 		CC44734C275753A3002A3F6E /* cross_nought_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44734B275753A3002A3F6E /* cross_nought_gameTests.swift */; };
 		CC447356275753A3002A3F6E /* cross_nought_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447355275753A3002A3F6E /* cross_nought_gameUITests.swift */; };
 		CC447358275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC447357275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift */; };
+		CC4473A32757E09C002A3F6E /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4473A22757E09C002A3F6E /* assets.xcassets */; };
+		CC4473A42757E09D002A3F6E /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4473A22757E09C002A3F6E /* assets.xcassets */; };
+		CC4473A52757E09D002A3F6E /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4473A22757E09C002A3F6E /* assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +43,6 @@
 		CC447336275753A1002A3F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC447338275753A1002A3F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC44733B275753A1002A3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC44733D275753A3002A3F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC447340275753A3002A3F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC447342275753A3002A3F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC447347275753A3002A3F6E /* cross nought gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cross nought gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,7 @@
 		CC447351275753A3002A3F6E /* cross nought gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cross nought gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC447355275753A3002A3F6E /* cross_nought_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cross_nought_gameUITests.swift; sourceTree = "<group>"; };
 		CC447357275753A3002A3F6E /* cross_nought_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cross_nought_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC4473A22757E09C002A3F6E /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,7 @@
 				CC447336275753A1002A3F6E /* SceneDelegate.swift */,
 				CC447338275753A1002A3F6E /* ViewController.swift */,
 				CC44733A275753A1002A3F6E /* Main.storyboard */,
-				CC44733D275753A3002A3F6E /* Assets.xcassets */,
+				CC4473A22757E09C002A3F6E /* assets.xcassets */,
 				CC44733F275753A3002A3F6E /* LaunchScreen.storyboard */,
 				CC447342275753A3002A3F6E /* Info.plist */,
 			);
@@ -232,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC447341275753A3002A3F6E /* LaunchScreen.storyboard in Resources */,
-				CC44733E275753A3002A3F6E /* Assets.xcassets in Resources */,
+				CC4473A32757E09C002A3F6E /* assets.xcassets in Resources */,
 				CC44733C275753A1002A3F6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4473A42757E09D002A3F6E /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4473A52757E09D002A3F6E /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
